@@ -26,4 +26,9 @@ class HomeController extends Controller
 //        return view('home');
         return view('dashboard.dashboard');
     }
+    
+    public function tambahartikel()
+    {
+        return view('dashboard.formadmin.formartikel');
+    }
 }
