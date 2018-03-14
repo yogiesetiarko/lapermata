@@ -34,4 +34,5 @@ Route::get('/aboutus', function () {
 Auth::routes();
 
 Route::get('/dashboard', 'HomeController@index')->name('home');
+Route::get('/artikel', 'HomeController@artikel')->name('artikel');
 Route::get('/tambahartikel', 'HomeController@tambahartikel')->name('tambahartikel');
